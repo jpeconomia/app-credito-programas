@@ -6,7 +6,7 @@ from dash_bootstrap_templates import load_figure_template
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 
-df = pd.read_csv(r"C:\Users\joaop\Documents\Dados de Conjuntura\Dados Estudo\Novo Estudo\investimento e custeio ano safra.csv")
+df = pd.read_csv('https://drive.google.com/uc?export=download&id=1_Q4I9iLjxMnRqLzcOAPfTSGsN8F3kRBE')
 
 app = Dash(__name__, use_pages=True,external_stylesheets = [dbc.themes.CYBORG, dbc_css])
 load_figure_template('CYBORG')
