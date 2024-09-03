@@ -5,7 +5,7 @@ import pandas as pd
 
 dash.register_page(__name__, name = '2. Pronaf Bioeconomia')
 
-df = pd.read_csv(r"C:\Users\joaop\Documents\Dados de Conjuntura\Dados Estudo\Novo Estudo\investimento e custeio ano safra.csv")
+df = pd.read_csv('https://drive.google.com/uc?export=download&id=1_Q4I9iLjxMnRqLzcOAPfTSGsN8F3kRBE')
 
 df2 = df.loc[df['cdSubPrograma'] == 'Credito De  Investimento - Pronaf Bioeconomia (Mcr 10-16)']
 
